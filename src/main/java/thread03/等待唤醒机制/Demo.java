@@ -10,5 +10,9 @@ public class Demo {
         FactoryThread factoryThread = new FactoryThread(productRoom);
         eatThread.start();
         factoryThread.start();
+
     }
+
+
+    //简化写法,lambda
 }
